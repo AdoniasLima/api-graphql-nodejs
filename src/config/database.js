@@ -10,5 +10,5 @@ knex("users").insert({
     password: "teste"
 }).then(data => console.log(data));
 
-knex("users").select("*").then(result => console.log(result));
 */
+knex("users").select("*").then(result => console.log(result));

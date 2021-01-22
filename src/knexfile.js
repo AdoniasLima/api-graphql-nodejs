@@ -1,6 +1,6 @@
 // Update with your config settings.
 
-require("dotenv").config({path: "./variables.env"});
+require("dotenv").config({path: "../.env"});
 
 module.exports = {
     client: 'mysql',
